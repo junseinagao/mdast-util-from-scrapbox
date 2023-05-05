@@ -4,9 +4,6 @@
 [![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 ## License
 
@@ -14,27 +11,19 @@
 
 
 <!-- Definitions -->
-[build-badge]: https://github.com/syntax-tree/mdast-util-from-scrapbox/workflows/main/badge.svg
-[build]: https://github.com/syntax-tree/mdast-util-from-scrapbox/actions
-[coverage-badge]: https://img.shields.io/codecov/c/github/syntax-tree/mdast-util-from-scrapbox.svg
-[coverage]: https://codecov.io/github/syntax-tree/mdast-util-from-scrapbox
+[build-badge]: https://github.com/junseinagao/mdast-util-from-scrapbox/workflows/ci/badge.svg
+[build]: https://github.com/junseinagao/mdast-util-from-scrapbox/actions
+[coverage-badge]: https://img.shields.io/codecov/c/github/junseinagao/mdast-util-from-scrapbox.svg
+[coverage]: https://codecov.io/github/junseinagao/mdast-util-from-scrapbox
 [downloads-badge]: https://img.shields.io/npm/dm/mdast-util-from-scrapbox.svg
 [downloads]: https://www.npmjs.com/package/mdast-util-from-scrapbox
 [size-badge]: https://img.shields.io/bundlephobia/minzip/mdast-util-from-scrapbox.svg
 [size]: https://bundlephobia.com/result?p=mdast-util-from-scrapbox
-[sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg
-[backers-badge]: https://opencollective.com/unified/backers/badge.svg
-[collective]: https://opencollective.com/unified
-[chat-badge]: https://img.shields.io/badge/chat-discussions-success.svg
-[chat]: https://github.com/syntax-tree/unist/discussions
 [npm]: https://docs.npmjs.com/cli/install
 [esmsh]: https://esm.sh
 [license]: license
-[author]: https://wooorm.com
-[health]: https://github.com/syntax-tree/.github
-[contributing]: https://github.com/syntax-tree/.github/blob/main/contributing.md
-[support]: https://github.com/syntax-tree/.github/blob/main/support.md
-[coc]: https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md
+[author]: https://github.com/junseinagao
+[health]: https://github.com/junseinagao/.github
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 [typescript]: https://www.typescriptlang.org
 [mdast]: https://github.com/syntax-tree/mdast
@@ -44,7 +33,6 @@
 [mdast-util-frontmatter]: https://github.com/syntax-tree/mdast-util-frontmatter
 [mdast-util-math]: https://github.com/syntax-tree/mdast-util-math
 [mdast-util-directive]: https://github.com/syntax-tree/mdast-util-directive
-[root]: https://github.com/syntax-tree/mdast#root
 [character-encoding]: https://nodejs.org/api/buffer.html#buffer_buffers_and_character_encodings
 [buffer]: https://nodejs.org/api/buffer.html
 [xss]: https://en.wikipedia.org/wiki/Cross-site_scripting
