@@ -14,7 +14,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'pnpm'
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
       - run: pnpm install
       - run: pnpm run lint
   build:
@@ -24,7 +26,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'pnpm'
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
       - run: pnpm install
       - run: pnpm run build
 
@@ -39,6 +43,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-          cache: 'pnpm'
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
       - run: pnpm install
       - run: pnpm run test
