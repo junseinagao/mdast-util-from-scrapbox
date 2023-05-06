@@ -1,1 +1,1 @@
-export { add } from './math.js';
+export { fromScrapbox } from './formScrapbox.js';
