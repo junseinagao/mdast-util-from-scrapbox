@@ -1,12 +1,13 @@
 {
   "name": "mdast-util-from-scrapbox",
-  "description": "A utility to convert Scrapbox data into mdast.",
   "version": "0.0.0",
-  "type": "module",
-  "repository": "https://github.com/junseinagao/mdast-util-from-scrapbox.git",
-  "author": "junseinagao <junsei.nagao@gmail.com>",
-  "license": "MIT",
   "private": true,
+  "description": "A utility to convert Scrapbox data into mdast.",
+  "keywords": [],
+  "repository": "https://github.com/junseinagao/mdast-util-from-scrapbox.git",
+  "license": "MIT",
+  "author": "junseinagao <junsei.nagao@gmail.com>",
+  "type": "module",
   "exports": {
     ".": {
       "import": {
@@ -15,6 +16,12 @@
       }
     }
   },
+  "files": [
+    "src",
+    "!src/**/*.test.ts",
+    "!src/**/__snapshots__",
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "lint": "run-s -c lint:*",
@@ -24,6 +31,10 @@
     "test": "vitest"
   },
   "prettier": "@mizdra/prettier-config-mizdra",
+  "dependencies": {
+    "@progfay/scrapbox-parser": "^8.1.0",
+    "mdast-builder": "^1.1.1"
+  },
   "devDependencies": {
     "@mizdra/eslint-config-mizdra": "^2.0.0",
     "@mizdra/prettier-config-mizdra": "^1.0.0",
@@ -44,9 +55,6 @@
     "vitest": "^0.30.1",
     "vitest-github-actions-reporter": "^0.10.0"
   },
-  "overrides": {
-    "tsconfig-paths": "^4.0.0"
-  },
   "engines": {
     "node": ">=16.0.0"
   },
@@ -54,11 +62,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "keywords": [],
-  "files": [
-    "src",
-    "!src/**/*.test.ts",
-    "!src/**/__snapshots__",
-    "dist"
-  ]
+  "overrides": {
+    "tsconfig-paths": "^4.0.0"
+  }
 }
