@@ -1,6 +1,13 @@
 {
-  "extends": ["@tsconfig/strictest/tsconfig.json", "@tsconfig/node18/tsconfig.json"],
-  "exclude": ["node_modules", "dist", "bin"],
+  "extends": [
+    "@tsconfig/strictest/tsconfig.json",
+    "@tsconfig/node18/tsconfig.json"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "bin"
+  ],
   "compilerOptions": {
     "module": "Node16",
     "moduleResolution": "node16",
@@ -8,8 +15,10 @@
     /* Lint Options */
     "noUnusedLocals": false, // Delegate to @typescript-eslint/no-unused-vars in eslint
     "noUnusedParameters": false, // Delegate to @typescript-eslint/no-unused-vars in eslint
-
     /* Debug Options */
-    "locale": "ja"
+    "locale": "ja",
+    "types": [
+      "vitest/globals"
+    ]
   }
 }
