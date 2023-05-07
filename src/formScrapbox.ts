@@ -1,6 +1,6 @@
-import type { Page } from '@progfay/scrapbox-parser';
-import { root } from 'mdast-builder';
+import { u } from 'unist-builder';
 
-export const fromScrapbox = (_page: Page) => {
-  return root();
+export const fromScrapbox = (_input: string) => {
+  const root = u('root', []);
+  return root;
 };
