@@ -1,11 +1,11 @@
 # mdast-util-from-scrapbox
 
-mdast utility that turns scrapbox into a syntax tree.
-
 [![Build][build-badge]][build]
 [![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
+
+mdast utility that turns scrapbox into a syntax tree.
 
 # THIS PACKAGE IS UNDER DEVELOPED!
 
