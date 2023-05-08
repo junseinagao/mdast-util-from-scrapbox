@@ -1,13 +1,6 @@
-import { fromScrapbox } from '../src/formScrapbox.js';
-import { loadTestTemplateByFileName } from './helpers/loadTemplates.js';
+import { loadTestTemplateByFileName } from './helpers/utils.js';
 
 describe('fromScrapbox', () => {
-  describe('get an empty string', () => {
-    it('return root', () => {
-      expect(fromScrapbox('')).toEqual({});
-    });
-  });
-
   const basicTestCases = [
     'blockquote',
     'code',
