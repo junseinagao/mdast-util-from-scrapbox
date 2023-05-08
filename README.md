@@ -1,9 +1,18 @@
 # mdast-util-from-scrapbox
 
+mdast utility that turns scrapbox into a syntax tree.
+
 [![Build][build-badge]][build]
 [![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
+
+# THIS PACKAGE IS UNDER DEVELOPED!
+
+## Acknowledgements
+
+The `/test/fixtures` directory utilizes test cases from the https://github.com/pastak/scrapbox-converter repository.
+
 
 ## License
 
