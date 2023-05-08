@@ -10,13 +10,13 @@ def hoge
 end
 ```
 
-```js:sample.js
+```js
 () => {
   console.log('fooo')
 }
 ```
 
-```javascript:sample
+```javascript
 () => {
   console.log('fooo')
 }
