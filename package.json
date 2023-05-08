@@ -33,6 +33,7 @@
   "prettier": "@mizdra/prettier-config-mizdra",
   "dependencies": {
     "@progfay/scrapbox-parser": "^8.1.0",
+    "ts-pattern": "4.2.4-test.1",
     "unist-builder": "^3.0.1"
   },
   "devDependencies": {
