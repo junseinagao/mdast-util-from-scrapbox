@@ -1,0 +1,2 @@
+this line have a [* bold], [********* big bold], [/ italic], [*/ bold italic], [- throughstroke], and [_ underline].
+markdown don't have a [_ underline], [- throughstroke], [*/ bold italic], but GFM have [_-*/  them].
